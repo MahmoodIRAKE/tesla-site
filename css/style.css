@@ -1,0 +1,517 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Utility*/
+
+.clr {
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    max-width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding: 0 0px;
+    box-sizing: border-box;
+}
+
+.container3 {
+    margin: auto;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0 0px;
+    box-sizing: border-box;
+}
+
+.container2 {
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0 0px;
+    box-sizing: border-box;
+    background: #F2F2F2;
+}
+
+.container-menu {
+    margin: auto;
+    max-width: 100%;
+    overflow: auto;
+    padding: 0 0px;
+    box-sizing: border-box;
+}
+
+
+/*menu*/
+
+.container {
+    background: url("../assets/img/M3-Hero-LHD-US-D.jpg") no-repeat center center/cover;
+}
+
+.navbar {
+    max-width: 100%;
+    padding: 0 0px;
+    overflow: auto;
+    line-height: 1.7em;
+}
+
+.navbar .middle-menu-list,
+.navbar .right-menu-list {
+    background: transparent;
+    color: #fff;
+    overflow: auto;
+    list-style: none;
+    float: left;
+    width: 68%;
+}
+
+.navbar .right-menu-list {
+    float: right;
+    width: 25%;
+    margin-right: 50px;
+}
+
+.navbar .middle-menu-list li,
+.navbar .right-menu-list li {
+    float: right;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.navbar .middle-menu-list li a,
+.navbar .right-menu-list li a {
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar .middle-menu-list li a:hover,
+.navbar .right-menu-list li a:hover {
+    background-color: #727377;
+}
+
+
+/*logo*/
+
+.logo {
+    position: fixed;
+    top: 15px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    mix-blend-mode: difference;
+}
+
+.test {}
+
+.mainheading {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.mainheading h1 {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.details {
+    overflow: auto;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0px;
+    margin-top: 23%;
+}
+
+.f-4,
+.f-3,
+.f-2,
+.f-1 {
+    margin-right: 68px;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+
+.f-1 {
+    margin-left: 32.1%;
+}
+
+
+/*to center all of them */
+
+.f-4 h1,
+.f-3 h1,
+.f-2 h1,
+.f-1 h1 {
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.f-4 p,
+.f-3 p,
+.f-2 p,
+.f-1 p {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7em;
+    font-weight: bolder;
+}
+
+.order-now-btn {
+    margin-top: 10px;
+    color: #fff;
+    border: 3px solid #fff;
+    background: transparent;
+    border-radius: 20px;
+    padding: 11px 35px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.order-now-btn:hover {
+    background: #fff;
+    color: black;
+}
+
+.img-speed-metor {
+    display: block;
+    color: white;
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-right: 3px;
+    filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg) brightness(119%) contrast(115%);
+}
+
+.f-5 {
+    align-items: center;
+    line-height: 0.5;
+}
+
+.f-5 i {
+    margin-top: 15px;
+    margin-left: 50%;
+    color: #fff;
+}
+
+
+/*rating*/
+
+.img-rating {
+    background: url("../assets/img/model_3_safety_hero.png") no-repeat center center/cover;
+    height: 102vh;
+    width: 70vw;
+    margin: auto;
+    margin-right: 17%;
+    position: relative;
+}
+
+.rating {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 28vw;
+    height: 100vh;
+    background: #FFFFFF;
+}
+
+
+/*rating left side*/
+
+.content-rating {
+    padding: 50px 50px 0px 50px;
+    background: #FFFFFF;
+}
+
+.content-rating .fc-1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #6e6e6e;
+    font-weight: bold;
+}
+
+.content-rating .fc-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.content-rating p {
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6e6e6e;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+}
+
+.rating-box {
+    background: #E2E4E4;
+    margin-top: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+
+.rating-box .rating-title {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.rating-box .rating-star {
+    list-style: none;
+    float: right;
+    line-height: 2.2em;
+    margin-right: 20px;
+}
+
+.rating-box h1 {
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.rating-box .rating-title li h1 {
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    line-height: 0.01em;
+}
+
+.rating-box .rating-title li p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    text-align: left;
+}
+
+.btns-foot {
+    margin-top: 40px;
+    width: 400px;
+}
+
+.btns-foot .f-4 {
+    float: left;
+    margin-top: 6px;
+}
+
+.btns-foot .f-4:hover {}
+
+.btns-foot .f-4 .order-now-btn:hover,
+.btns-foot .f-41 .order-now-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.btns-foot .f-4 .order-now-btn {
+    border: 3px solid black;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 5px 12px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+
+.btns-foot .f-4 h3 {
+    float: right;
+    color: #6e6e6e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.btns-foot .f-41 {
+    margin-top: -40px;
+    margin-right: 100px;
+    float: right;
+}
+
+.btns-foot .f-41 .order-now-btn {
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: #6e6e6e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.line1 {
+    position: absolute;
+    top: -440px;
+    left: -135px;
+    height: 250px;
+    width: 150px;
+    border-left: 3.5px solid black;
+    margin: 50%;
+}
+
+.line2 {
+    position: absolute;
+    top: -490px;
+    left: 110px;
+    height: 130px;
+    width: 150px;
+    border-left: 3.5px solid black;
+    margin: 50%;
+}
+
+.line3 {
+    position: absolute;
+    top: -135px;
+    left: 150px;
+    height: 150px;
+    width: 250px;
+    border-left: 3.5px solid black;
+    margin: 50%;
+}
+
+.dot1 {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    top: -190px;
+    left: -138px;
+    margin: 50%;
+}
+
+.dot2 {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    top: -360px;
+    left: 107px;
+    margin: 50%;
+}
+
+.dot3 {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+    top: -135px;
+    left: 147px;
+    margin: 50%;
+}
+
+.line1 h1,
+.line2 h1 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #6e6e6e;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+
+.line3 h1 {
+    margin-top: 141px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #6e6e6e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*third page*/
+
+.img-detailes {
+    height: 70vh;
+    border: 0.000001px solid #fff;
+    background: url("../assets/img/lhd-performance-hero-desktop.jpg") no-repeat center center/cover;
+}
+
+.details-2 {
+    overflow: auto;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0px;
+    margin-top: 23%;
+}
+
+.performance {
+    overflow: hidden;
+}
+
+.performance .content-rating {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 250px;
+}
+
+.performance .otif {
+    float: left;
+    width: 40%;
+}
+
+.performance .last-para {
+    float: right;
+    width: 58%;
+    margin-top: -110px;
+    margin-right: -40px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #6e6e6e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.performance .otif .btns-foot {
+    margin-top: 2%;
+}
+
+.details-2 .f-1 {
+    margin-left: 18%;
+}
+
+.details-2 .img-speed-metor {
+    border: 2px solid black;
+    display: block;
+    color: white;
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-left: 200px;
+    z-index: 10;
+    filter: invert(100%) sepia(16%) saturate(7463%) hue-rotate(222deg) brightness(119%) contrast(115%);
+}
+
+.details-2 .f-1 h1 {
+    margin-left: 10px;
+}
